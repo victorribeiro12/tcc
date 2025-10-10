@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    min-height: 100vh;
+    background: rgb(32, 32, 32);
+    color: white;
+    flex-direction: column;
+}
+.header{
+    display: flex;
+    border: 20px;
+    margin-top: 20px;
+}
+.header h1{
+    font-size: 3rem;
+    margin: 20px;
+}
+.item1 button{
+    margin-left: 100px;
+    margin-top: 20px;
+    padding: auto;
+    margin-left: 1200px; ;
+    color:gray;
+    font-size: 1.2rem;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 25px;
+    border-radius: 10px; 
+
+}
+.item2 button{
+    margin-left: 100px;
+    margin-top: 20px;
+    padding: auto;
+    margin-left: 100px; ;
+    color:gray;
+    font-size: 1.2rem;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 25px;
+    border-radius: 10px; 
+
+}
+.item3 button{
+    margin-left: 100px;
+    margin-top: 20px;
+    padding: auto;
+    margin-left: 100px; ;
+    color:gray;
+    font-size: 1.2rem;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 25px;
+    border-radius: 10px; 
+
+}
+.item4 button{
+    margin-left: 100px;
+    margin-top: 20px;
+    padding: auto;
+    margin-left: 100px; ;
+    color:gray;
+    font-size: 1.2rem;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 25px;
+    border-radius: 10px; 
+}
+nav{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 50px;
+    gap: 20px;
+
+}
+.nav-item{
+    color: #000;
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 300px;
+    height: 250px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+.carousel-container {
+    color: #000;
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 300px;
+    height: 250px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+.carousel-wrapper {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+}
+
+.carousel-track {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+    height: 100%;
+}
+
+.carousel-slide {
+    min-width: 100%;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.carousel-slide img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    background: #e0e0e0;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.carousel-slide h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.carousel-slide p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.carousel-controls {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px 15px;
+    gap: 10px;
+}
+
+.arrow-button {
+    flex: 1;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.arrow-button.prev {
+    background: #6c757d;
+    color: white;
+}
+
+.arrow-button.prev:hover {
+    background: #5a6268;
+    transform: translateY(-2px);
+}
+
+.arrow-button.next {
+    background: #007bff;
+    color: white;
+}
+
+.arrow-button.next:hover {
+    background: #0056b3;
+    transform: translateY(-2px);
+}
+
+.arrow-button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+    opacity: 0.6;
+    transform: none;
+}
+
+.carousel-indicators {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    padding: 10px;
+}
+
+.indicator {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #ddd;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.indicator.active {
+    background: #007bff;
+    width: 24px;
+    border-radius: 4px;
+}
+
+.indicator:hover {
+    background: #999;
+}
